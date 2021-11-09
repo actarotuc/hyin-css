@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Roboto&display=swap');
+
+body{
+    background-color: rgb(34, 50, 59);
+    color: rgb(209, 197, 197);
+    /*font-size: 20px;
+    font-weight:500;
+    font-family:'Roboto', sans-serif;*/
+    font: normal 20px 'New Rocker', cursive;
+}
+a{
+color: rebeccapurple;
+text-decoration:none ;
+}
+a:hover {
+    color: darkmagenta;
+    text-decoration:underline ;
+}
+a:active {
+    color: darkred;
+}
+a:visited {
+    color: rgb(42, 160, 160);
+}
+
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow:4px 17px 17px rgb(9, 15, 19);
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+
+}
+.bg-g{
+    background-color: darkslategrey;
+}
+
+.bg-b{
+    background-color: rgb(53, 134, 167);
+}
+
+.bg-m{
+    background-color: mediumslateblue;
+}
+
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow:4px 17px 17px rgb(9, 15, 19);
+}
+
+x
+
+
+.info{
+    color: rgb(85, 109, 124);
+    font-style: italic;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+
+    /*text-transform: lowercase;*/
+    word-spacing: 10px;
+    text-decoration: wavy;
+    letter-spacing: 5px;  
+      
+} 
+.penis{
+    background:rgb(143, 32, 255) ;
+    padding: 10px 5px;
+    border: 5px solid black;
+    margin: 15px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+
+
+}
+
+.table{
+    width: 30%;
+}
+
+.table td:nth-child(2){
+    color: whitesmoke ;
+}
+
+.table {
+    padding-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+
+}
+
+.form label {
+    display: block;
+    font-size: 14 px;
+}
+.form input , textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background:rgba(33, 85, 133, 0.178) ;
+    border-bottom: 5px solid blueviolet;
+    color: black;
+    padding: auto;
+    outline: none;
+    font-family: inherit;
+
+}
+.row{
+    display: flex;}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+
+
+}
+
+@media (max-width:700px) {
+   .info{  
+       display: block;
+       text-align: center;
+   } 
+
+}
+
+.info-text{
+    margin-left: 40px;
+    display: flex;
+
+}
+
+.info-text h4 {
+    margin-bottom: 10px ;
+    padding-top: 10px;
+} 
+
+.btn {  
+    background:rgba(33, 85, 133, 0.178) ;
+    color:rgb(209, 197, 197);
+    border: none;
+    border-bottom: 5px solid blueviolet;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 15px 20px;
+    
+
+}
+
+.btn:hover{
+    opacity:0.5;
+}
+
+.position{
+    border: 4px solid blueviolet;
+    margin-top: 40px;
+    padding: 20px; 
+    height: 300px; 
+    position: relative;
+
+}
+
+.box{
+    position: fixed;
+    bottom: 0px;
+    left:0px ;
+    width: 100%;
+    height: 50px;
+    background:rgba(33, 85, 133, 0.842);
+    
+}
+
+
+/*
+.box-model > div {
+    float:left ;
+    background-color: black;
+    height: 200px;
+    width: 25%;
+    border: 4px solid rebeccapurple;
+    box-sizing: border-box;
+    /*
+
+
+
+    h1 {
+    color: blueviolet;
+}
+h2 {
+    font-size: 20px;
+}
